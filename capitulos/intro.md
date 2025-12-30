@@ -1,8 +1,5 @@
 # Un poco de historia
 
-::: {.meta description="Historia de los lenguajes de programación C y C++" keywords="historia, lenguajes, programación, El lenguaje C, El lenguaje C++"}
-:::
-
 A principios de 1960, los programas para computadora se escribían y
 ejecutaban de forma diferente. Un investigador escribía un programa, lo
 convertía al formato de entrada que aceptaba el *mainframe*
@@ -135,28 +132,6 @@ características de C que fueron inventadas para ayudar al compilador a
 compilar programas. Aunque esto no suena bien, no es necesariamente
 malo; ya que simplifica enormemente el lenguaje y evita semánticas
 complicadas.
-
-::: parsed-literal
-Línea de tiempo de C
-
-1965-67 1969 1971 1972-1973 +\-\-\-\-\--+ +\-\--+ +\-\-\-\-\-\-\-\--+
-+\-\-\-\--+ \| BCPL [\|\-\-\-\-\-\-\--\>\|](##SUBST##|-------->|) B
-[\|\-\-\-\-\-\-\--\>\|](##SUBST##|-------->|) Nuevo B
-[\|\-\-\-\-\-\-\--\>\|](##SUBST##|-------->|) C \| +\-\-\-\-\--+ +\-\--+
-+\-\-\-\-\-\-\-\--+ +\--+\--+ \| Sistema Operativo \| v
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ +\-\-\--+\-\-\-\--+ \| UNIX
-escrito en \| \| UNIX escrito en \| \| UNIX en \| \| ensamblador PDP-7
-[\|\-\--\>\|](##SUBST##|--->|) ensamblador PDP-11
-[\|\-\--\>\|](##SUBST##|--->|) C \|
-+\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\--+
-+\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\-\--+ \|
-Hardware \| v v +\-\-\--+\-\-\--+ +\-\-\--+\-\-\--+ \| PDP-7
-[\|\-\-\-\-\-\-\-\-\-\-\-\--\>\|](##SUBST##|------------->|) PDP-11 \|
-+\-\-\-\-\-\-\-\--+ +\-\-\--+\-\-\--+ \| v +\-\--+\-\-\-\--+ \| IBM-360
-\| +\-\--+\-\-\-\--+ \| v +\-\-\-\-\--+\-\-\-\-\-\-\--+ \| HoneyWall-635
-\| +\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-:::
 
 El primer compilador de C apareció en 1972. En ese mismo año también se
 crearon las bibliotecas de entrada y salida estándar (I/O), ya que el
@@ -330,27 +305,6 @@ la especificación. Durante el desarrollo se utilizó la denominación
 C++1y para referirse al borrador del estándar, análogamente a cómo la
 denominación C++0x se había utilizado durante el desarrollo de C++11.
 
-::: parsed-literal
-Línea de tiempo de C++
-
-1983 1985 1989 +\-\-\-\-\-\-\-\-\-\-\-\-\--+ +\-\-\-\--+
-+\-\-\-\-\-\-\--+ \| C con clases
-[\|\-\-\-\-\-\--\>\|](##SUBST##|------->|) C++
-[\|\-\-\-\-\-\--\>\|](##SUBST##|------->|) C++89 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\--+ +\-\-\-\--+ +\-\-\--+\-\--+ \| v
-+\-\-\--+\-\--+ \| C++98 \| C, C++ +\-\-\--+\-\--+ \| v +\-\-\--+\-\--+
-\| C++03 \| +\-\-\--+\-\--+ \| v +\-\-\--+\-\--+ +\-\-\-\-\-\-\--+ C++
-Moderno \| C++0x [\|\-\--\>\|](##SUBST##|--->|) C++11 \| 2011
-+\-\-\-\-\-\-\--+ +\-\-\--+\-\--+ \| v +\-\-\-\-\-\-\--+
-+\-\-\--+\-\-\--+ \| C++14 [\|\<\-\--\|](##SUBST##|<---|) C++1y \|
-+\-\-\--+\-\--+ +\-\-\-\-\-\-\-\--+ \| v +\-\-\--+\-\--+
-+\-\-\-\-\-\-\-\--+ \| C++1z [\|\-\--\>\|](##SUBST##|--->|) C++17 \|
-+\-\-\-\-\-\-\--+ +\-\-\--+\-\-\--+ \| +\-\-\-\-\-\-\-\--+
-+\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\--+ \| \| C++26
-[\|\<\-\-\-\-\--\|](##SUBST##|<------|) C++23
-[\|\<\-\-\-\-\--\|](##SUBST##|<------|) C++20 \|\<\-\-\-\--+
-+\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\--+ +\-\-\-\-\-\-\-\--+
-:::
 
 En 2017 se libera la especificación final de C++17. En Mayo del 2020 se
 libera la especificación C++20. La cual agrega varios cambios
@@ -368,3 +322,4 @@ La próxima versión se espera que se libere en 2026. La cual
 tentativamente llevará por nombre C++26 y se espera que incluya muchas
 mejoras y utilidades requeridas por algoritmos de Inteligencia Artifical
 como matrices y funciones Matématicas tipo Blas.
+
