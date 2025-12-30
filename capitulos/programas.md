@@ -1,8 +1,5 @@
 # Programas
 
-::: {.meta title="Programas" capitulo="1" description="Como compilar el código fuente de un programa en C++" keywords="programas, compilar, enlazar, programación, código fuente"}
-:::
-
 Para que una computadora haga algo, tú (o alguien más) debe decirle
 exactamente --- y en detalle --- lo que tiene qué hacer. A la
 descripción precisa sobre lo \"que tiene qué hacer una computadora\" se
@@ -1777,3 +1774,4 @@ $ c++ -Wall esperanza.cpp main.cpp -o esperanza -std=c++23
 A grandes razgos esta es la forma en que se escribe y compila un
 programa usando clases y funciones en C++. En el siguiente capítulo se
 describe la estructura léxica del lenguaje.
+
